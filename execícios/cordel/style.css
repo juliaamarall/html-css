@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+*{
+    margin: 0px;
+    padding:0px;
+}
+
  body{
     padding: 0px;
     margin: 0px;
@@ -14,23 +19,60 @@ header{
 h1{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 10px;
+    padding-top: 50px;
+    font-variant: small-caps;
     
 }
 
-#link{
+
+
+header > p{
 font-size: 15px;
 font-family: Arial, Helvetica, sans-serif;
-padding-bottom: 10px;
+padding-bottom: 50px;
 
 }
 
 a{
+    
     text-decoration: none;
+    color: aliceblue;
 }
  a:hover{
     text-decoration: underline;
     color: blueviolet;
 
 
+}
+ 
+section{
+    line-height: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.normal{
+    background-color: white;
+
+}
+
+.imagem{
+    background-color: burlywood;
+}
+
+
+
+.imagem > p{
+    background-color: rgb(156, 105, 38);
+    width: 50%;
+    padding-bottom: 30px;
+
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Areia movediça & display = swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient( to right , rgb(0, 0, 0), #36dd3b);
+}
