@@ -8,17 +8,47 @@
         <style>
 
             body{
-                
+                background-color: gray;
+                font-family: Arial, Helvetica, sans-serif;
             }
+
+            table{
+                width: 500px;
+                border-collapse: collapse;
+
+            }
+
+            td,th{
+                border: 1px solid black;
+            }
+
+            td{
+                padding: 10px;
+            }
+
+            .cap{
+                text-align: right;
+                color: rgba(240, 248, 255, 0.651);
+            }
+
+        caption{
+            font-size: 2em;
+            padding: 10px;
+            font-style: normal;
+            font-weight: bolder;
+            text-decoration: underline;
+        }    
+        
         </style>
 </head>
 <body>
     <table>
+        <caption> Tabela dos estados Brasileiros</caption>
         <thead>
             <tr>
-                <th>Estado</th>
+                <th scope="col">Estado</th>
                 <th>Sigla</th>
-                <th>População</th>
+                <th>Capital</th>
             </tr>
         
         </thead>
@@ -26,79 +56,79 @@
             <tr>
                 <td>Céara</td>
                 <td>CE</td>
-                <td>Fortaleza</td>
+                <td class="cap">Fortaleza</td>
             </tr>
 
             <tr>
                 <td>Acre</td>
                 <td>AC</td>
-                <td> Rio branco</td>
+                <td class="cap" class="cap"> Rio branco</td>
             </tr>
 
             <tr>
                 <td>Alagoas</td>
                 <td>AL</td>
-                <td>Maceió</td>
+                <td class="cap" class="cap">Maceió</td>
             </tr>
 
             <tr>
                 <td>Amapá</td>
                 <td>Ap</td>
-                <td>Macapá</td>
+                <td class="cap" class="cap">Macapá</td>
             </tr>
 
             <tr>
                 <td>Amazonas</td>
                 <td>AM</td>
-                <td>Manaus</td>
+                <td class="cap" class="cap">Manaus</td>
             </tr>
 
             <tr>
                 <td>Bahia</td>
                 <td>BA</td>
-                <td>Salvador</td>
+                <td class="cap">Salvador</td>
             </tr>
 
             <tr>
                 <td>Espírito Santo</td>
                 <td>ES</td>
-                <td>Vitória</td>
+                <td class="cap">Vitória</td>
             </tr>
 
             <tr>
                 <td>Goiás</td>
                 <td>GO</td>
-                <td>Goiânia</td>
+                <td class="cap">Goiânia</td>
             </tr>
 
             <tr>
                 <td>Maranhão</td>
                 <td>MA</td>
-                <td>São Luís</td>
+                <td class="cap">São Luís</td>
             </tr>
 
             <tr>
                 <td>Mato Grosso</td>
                 <td>MT</td>
-                <td>Cuiabá</td>
+                <td class="cap">Cuiabá</td>
             </tr>
 
             <tr>
                 <td>Mato Grosso do Sul</td>
                 <td>MS</td>
-                <td>Campo Grande</td>
+                <td class="cap">Campo Grande</td>
             </tr>
 
             <tr>
                 <td>Minas Gerais</td>
                 <td>MG</td>
-                <td>Belo Horizonte</td>
+                <td class="cap">Belo Horizonte</td>
             </tr>
 
             <tr>
                 <td>Pará</td>
                 <td>PA</td>
-                <td>Belém</td>
+                <td class="cap">Belém</td>
             </tr>
         </tbody>
         <tfoot>

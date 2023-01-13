@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section.imagem{
+    height: 500px;
+    width: 100vw;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.336);
+}
+
+#img1{
+    background-image: url(img/pexels-tima-miroshnichenko-5427862.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url(img/pexels-cottonbro-studio-4709289.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+#img3{
+    background-image: url(img/pexels-tima-miroshnichenko-5428003.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+h2{
+    font-size: 2.2em;
+    font-variant: small-caps;
+    font-weight: normal;
+    margin-top: 20px;
+}
+section > p{
+   margin: 0px 20px 20px 20px;
+   padding: 30px;
+   font-size: 20px;
+   font-weight: lighter;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
